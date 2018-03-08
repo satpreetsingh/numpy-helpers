@@ -10,6 +10,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -91,6 +92,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
 
 # Spyder project settings
 .spyderproject
@@ -107,3 +115,4 @@ venv.bak/
 
 # folders
 private/
+
